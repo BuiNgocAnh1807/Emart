@@ -40,7 +40,7 @@ const ProductId  = () => {
                     </h4>
                     <h1 className = 'display-5'>{product.title}</h1>
                     <p className='lead'>
-                        Rating {product.rating && product.rating.rate}<i class="bi bi-star ms-1"></i>
+                        Rating1 {product.rating && product.rating.rate}<i class="bi bi-star ms-1"></i>
                     </p>
                     <h3 className='display-6 fw-bold my-4'>${product.price}</h3>
                     <p className='lead'>
