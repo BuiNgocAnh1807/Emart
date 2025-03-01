@@ -15,6 +15,7 @@ const Products = () => {
   };
   useEffect(() => {
     getProducts();
+    console.log("test")
   }, []);
 
   const filterProducts = (name) => {
