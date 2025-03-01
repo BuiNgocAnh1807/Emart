@@ -29,12 +29,12 @@ const Products = () => {
           <button type="button" className="btn btn-outline-dark me-2" 
           onClick={() => setFilter(data)}
           >
-            All
+            All1
           </button>
           <button type="button" className="btn btn-outline-dark me-2"
           onClick={() => filterProducts("men's clothing")}
           >
-            Men's Clothing
+            Men's Clothing11
           </button>
           <button type="button" className="btn btn-outline-dark me-2"
           onClick={() => filterProducts("women's clothing")}
